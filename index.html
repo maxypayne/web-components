@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 30px;
+    }
+    .my-card {
+      width: 200px;
+      height: auto;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: white;
+    }
+    button {
+      background-color: brown;
+      padding: 8px 25px;
+      border-radius: 30px;
+      font-size: 16px;
+      color: whitesmoke;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+  
+  <script src="app.js" type="module" defer></script>
+</head>
+<body>
+  <app-card prefix="My prefix"></app-card>
+  <button class="change-button">Change</button>
+  <app-button>
+    <div slot="top">This is top</div>
+    <div slot="inside">Changed from slot</div>
+  </app-button>
+</body>
+</html>
