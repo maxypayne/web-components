@@ -1,0 +1,7 @@
+:host h2{
+  background-color: chocolate;
+}
+
+:host ::ng-deep h2{
+  color: goldenrod;
+}

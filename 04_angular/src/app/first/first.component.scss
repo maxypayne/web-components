@@ -1,0 +1,16 @@
+p {
+  // background-color: aqua;
+}
+
+:host {
+  border: 2px solid dimgray;
+  display: block;
+  padding: 20px;
+}
+// <style>
+//   [_nghost-c0] {
+//     border: 2px solid dimgray;
+//     display: block;
+//     padding: 20px;
+//   }
+// </style>
